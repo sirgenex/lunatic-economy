@@ -1,0 +1,17 @@
+name: lunatic-economy
+version: 1.0
+author: SrGeneX
+main: br.com.lunaticmc.economy.Economy
+load: STARTUP
+loadbefore:
+  - Vault
+depend:
+  - Vault
+softdepend:
+  - PlaceholderAPI
+  - nChat
+commands:
+  magnata:
+    aliases: [ricos, rico, magnatas]
+  coins:
+    aliases: [wallet, money, economy, eco, econ, dinheiro, reais, dindin, dolares, dollars, carteira, banco, mercadopago, nubank, bitcoin]
