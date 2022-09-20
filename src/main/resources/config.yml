@@ -1,7 +1,12 @@
 permission: "lunatic.coord"
 task_timer: 10 #minutos
-magnata:
-  tag: "&2[$]"
+mysql:
+  host: 178.255.219.105
+  user: u2170_CnMdkhQlXG
+  password: 9m!OzZvRmd+RuFeVJuj+Nh5r
+  database: s2170_lunatic
+  port: 3306
+magnata: "&2[$]"
 top:
   title: "&8Top Money"
   hotbars: 4
@@ -25,51 +30,3 @@ top:
     8: 21
     9: 22
     10: 23
-messages:
-  magnata_message:
-    - "&a&lMAGNATA &fO atual magnata do servidor é {player} com um total de &2{amount}&f coins."
-  magnata_update:
-    - "&a&lMAGNATA &fO jogador &a{player} &fse tornou o novo magnata com &2{amount} &fde dinheiro."
-  without_permission:
-    - "&cVocê não tem permissão para executar esse comando."
-  balance:
-    you:
-      - "&7Você possui &a{balance} &7de dinheiro."
-    others:
-      - "&7O jogador {player} possui &a{balance} &7de dinheiro."
-  help:
-    normal:
-      - "&6Comandos - LunaticEconomy"
-      - ""
-      - "&7/magnata &8- &fVer os jogadores mais ricos do servidor."
-      - "&7/coins &8- &fVer a quantia de dinheiro em sua conta."
-      - "&7/coins enviar (jogador) (quantia) &8- &fEnviar uma quantidade de dinheiro para um jogador."
-      - "&7/coins top &8- &fVer os jogadores com mais dinheiro do servidor."
-      - ""
-    admin:
-      - "&6Comandos - LunaticEconomy"
-      - ""
-      - "&7/magnata &8- &fVer os jogadores mais ricos do servidor."
-      - "&7/coins &8- &fVer a quantia de dinheiro em sua conta."
-      - "&7/coins enviar (jogador) (quantia) &8- &fEnviar uma quantidade de dinheiro para um jogador."
-      - "&7/coins top &8- &fVer os jogadores com mais dinheiro do servidor."
-      - "&7/coins definir (player) (quantia) &8- &fDefinir uma quantia de dinheiro para um jogador."
-      - "&7/coins adicionar (player) (quantia) &8- &fAdicionar uma quantia de dinheiro para um jogador."
-      - "&7/coins remover (player) (quantia) &8- &fRemover uma quantia de dinheiro de um jogador."
-      - ""
-  invalid_integer:
-    - "&cEssa quantia é inválida."
-  player_without_money:
-    - "&cO jogador {player} não tem dinheiro suficiente."
-  without_money:
-    - "&cVocê não tem dinheiro suficiente."
-  inexistent_player:
-    - "&cEsse jogador nunca jogou no servidor."
-  sent:
-    - "&aVocê enviou {amount} de dinheiro para {player}, agora você tem {balance} de dinheiro."
-  setted:
-    - "&aVocê setou {amount} de dinheiro na conta de {player} com sucesso."
-  added:
-    - "&aVocê adicionou {amount} de dinheiro na conta de {player} com sucesso, agora ele possui {balance}."
-  removed:
-    - "&aVocê removeu {amount} de dinheiro da conta de {player} com sucesso, agora ele possui {balance}."

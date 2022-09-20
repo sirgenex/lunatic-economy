@@ -2,7 +2,7 @@ package br.com.lunaticmc.economy.hook;
 
 import br.com.lunaticmc.economy.config.ConfigurationData;
 import br.com.lunaticmc.economy.object.EcoPlayer;
-import br.com.lunaticmc.economy.object.controller.EcoPlayerController;
+import br.com.lunaticmc.economy.controller.EcoPlayerController;
 import com.nickuc.chat.api.events.PublicMessageEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;

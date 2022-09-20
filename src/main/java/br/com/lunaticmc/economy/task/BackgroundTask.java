@@ -1,17 +1,17 @@
 package br.com.lunaticmc.economy.task;
 
-import br.com.lunaticmc.economy.Economy;
+import br.com.lunaticmc.economy.EconomyPlugin;
 import br.com.lunaticmc.economy.menu.TopMenu;
-import br.com.lunaticmc.economy.object.controller.EcoPlayerController;
+import br.com.lunaticmc.economy.controller.EcoPlayerController;
 import org.bukkit.scheduler.BukkitRunnable;
 
 public class BackgroundTask extends BukkitRunnable {
 
     @Override
     public void run() {
-        EcoPlayerController.getInstance().updateTop();
+        EcoPlayerController.getInstance().update();
         TopMenu.getInstance().update();
-        EcoPlayerController.getInstance().saveAll(Economy.getInstance().getDB());
+        EcoPlayerController.getInstance().save(EconomyPlugin.getInstance().getDB());
     }
 
 }

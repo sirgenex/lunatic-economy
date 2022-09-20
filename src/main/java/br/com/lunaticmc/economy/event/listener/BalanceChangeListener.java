@@ -2,7 +2,7 @@ package br.com.lunaticmc.economy.event.listener;
 
 import br.com.lunaticmc.economy.event.BalanceChangeEvent;
 import br.com.lunaticmc.economy.object.EcoPlayer;
-import br.com.lunaticmc.economy.object.controller.EcoPlayerController;
+import br.com.lunaticmc.economy.controller.EcoPlayerController;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;

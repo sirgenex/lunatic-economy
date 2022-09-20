@@ -1,8 +1,9 @@
 package br.com.lunaticmc.economy.hook;
 
+import br.com.lunaticmc.economy.EconomyPlugin;
 import br.com.lunaticmc.economy.manager.FormatManager;
 import br.com.lunaticmc.economy.object.EcoPlayer;
-import br.com.lunaticmc.economy.object.controller.EcoPlayerController;
+import br.com.lunaticmc.economy.controller.EcoPlayerController;
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.economy.EconomyResponse;
 import org.bukkit.OfflinePlayer;
@@ -13,12 +14,12 @@ public class VaultHook implements Economy {
 
     @Override
     public boolean isEnabled() {
-        return br.com.lunaticmc.economy.Economy.getInstance().isEnabled();
+        return EconomyPlugin.getInstance().isEnabled();
     }
 
     @Override
     public String getName() {
-        return br.com.lunaticmc.economy.Economy.getInstance().getName();
+        return EconomyPlugin.getInstance().getName();
     }
 
     @Override

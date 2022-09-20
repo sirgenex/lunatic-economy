@@ -1,6 +1,6 @@
 package br.com.lunaticmc.economy.config;
 
-import br.com.lunaticmc.economy.Economy;
+import br.com.lunaticmc.economy.EconomyPlugin;
 import lombok.Getter;
 import org.bukkit.configuration.file.FileConfiguration;
 
@@ -10,7 +10,7 @@ public class ConfigurationData {
 
     @Getter private static final ConfigurationData instance = new ConfigurationData();
 
-    private final FileConfiguration c = Economy.getInstance().getConfig();
+    private final FileConfiguration c = EconomyPlugin.getInstance().getConfig();
 
     public String permission = c.getString("permission");
 

@@ -2,7 +2,7 @@ package br.com.lunaticmc.economy.command;
 
 import br.com.lunaticmc.economy.config.ConfigurationData;
 import br.com.lunaticmc.economy.object.EcoPlayer;
-import br.com.lunaticmc.economy.object.controller.EcoPlayerController;
+import br.com.lunaticmc.economy.controller.EcoPlayerController;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

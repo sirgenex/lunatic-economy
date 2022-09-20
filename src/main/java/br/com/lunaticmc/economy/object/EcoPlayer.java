@@ -2,7 +2,7 @@ package br.com.lunaticmc.economy.object;
 
 import br.com.lunaticmc.economy.event.BalanceChangeEvent;
 import br.com.lunaticmc.economy.manager.FormatManager;
-import br.com.lunaticmc.economy.object.controller.EcoPlayerController;
+import br.com.lunaticmc.economy.controller.EcoPlayerController;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

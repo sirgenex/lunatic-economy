@@ -52,6 +52,16 @@
             <version>1.7</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>br.com.lunaticmc</groupId>
+            <artifactId>lunatic-core</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>br.com.srgenex</groupId>
+            <artifactId>nChat</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <repositories>
@@ -61,7 +71,7 @@
         </repository>
         <repository>
             <id>placeholderapi</id>
-            <url>http://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
         <repository>
             <id>spigot-repo</id>
